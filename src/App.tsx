@@ -1,8 +1,8 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Presentation from './sections/Presentation';
-import Projects from './sections/Projects';
-import Contact from './sections/Contact';
+import Presentation from './components/sections/Presentation';
+import Projects from './components/sections/Projects';
+import Contact from './components/sections/Contact';
 
 function App() {
   return (
