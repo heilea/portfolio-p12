@@ -1,6 +1,6 @@
-import styles from './Projects.module.scss';
-import ProjectCard from '../components/ProjectCard';
-import { projects } from '../data/projectCard';
+import styles from "./Projects.module.scss";
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data/projectCard";
 
 const Projects = () => {
   return (
@@ -11,9 +11,10 @@ const Projects = () => {
           <ProjectCard
             key={index}
             title={project.title}
-            
             image={project.image}
-            link={project.link}
+            description={project.description}
+            skills={project.skills}
+            link={project.git}
           />
         ))}
       </div>
