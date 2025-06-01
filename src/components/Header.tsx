@@ -1,5 +1,5 @@
-import styles from './Header.module.scss';
-import atomIcon from '../../public/React.js_logo-512.webp';
+import styles from "./Header.module.scss";
+import atomIcon from "../assets/react.svg";
 
 const Header = () => {
   return (
