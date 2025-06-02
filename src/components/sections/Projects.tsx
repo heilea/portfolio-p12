@@ -1,6 +1,6 @@
 import styles from "./Projects.module.scss";
-import ProjectCard from "../components/ProjectCard";
-import { projects } from "../data/projectCard";
+import ProjectCard from "../../components/ProjectCard";
+import { projects } from "../../data/projectCard";
 
 const Projects = () => {
   return (
