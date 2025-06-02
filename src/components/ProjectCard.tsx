@@ -18,13 +18,13 @@ export const ProjectCard = ({
   return (
     <div className={styles.card}>
       {image && <img src={image} alt={title} className={styles.image} />}
-      <div>
+      <div className={styles.card_text}>
         <h3>{title}</h3>
-        {description}
-        {skills}
+        <p>{description}</p>
+        <p>{skills}</p>
         {link && (
           <a href={link} target="_blank" rel="noopener noreferrer">
-            Voir le projet
+            Voir le repository
           </a>
         )}{" "}
       </div>
