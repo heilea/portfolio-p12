@@ -1,5 +1,7 @@
-import site1 from "../../src/assets/site1.png";
-import site2 from "../../src/assets/site2.png";
+import site1 from "../assets/site1.png";
+import site2 from "../assets/site2.png";
+import site3 from "../assets/site3.png";
+import site4 from "../assets/site4.png";
 
 type Project = {
   title: string;
@@ -19,10 +21,26 @@ export const projects: Project[] = [
     skills: "Typescript, Redux, Sass ",
   },
   {
-    title: "Crazee Burger",
+    title: "Optimisation de Portfolio",
     image: site2,
     description:
-      "Un projet fil rouge de la formation React en entreprise de Vi Dev. J'ai appris les fondamentaux de react et les bonnes pratiques en entreprise. ",
+      " Apprentissage des pratiques de SEO pour le referencement web. ",
+    git: "https://github.com/heilea/P09-Nina-Carducci.git",
+    skills: "HTML, Google Ligth House, Wave, GIMP",
+  },
+  {
+    title: "724events",
+    image: site3,
+    description:
+      "Un projet React avec des bugs a résoudre. Prise en main des test unitaire et fonctionnel. Reprise de la codebase d'un tiers. ",
+    git: "https://github.com/heilea/P-10.git",
+    skills: "Javascript, Jest, React Devtools",
+  },
+  {
+    title: "Crazee Burger",
+    image: site4,
+    description:
+      "Un projet fil rouge de la formation React en entreprise par ViDev. Le projet est en cours",
     git: "https://github.com/heilea/crazee-burger2.git",
     skills: "Javascript, Styled-components, Git, Fire Base",
   },
