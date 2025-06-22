@@ -1,4 +1,4 @@
-import "./SKill.scss";
+import "./Skill.scss";
 import logo1 from "../../assets/logo1.webp";
 import logo2 from "../../assets/logo2.webp";
 import logo3 from "../../assets/logo3.webp";
