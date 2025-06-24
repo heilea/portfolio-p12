@@ -1,5 +1,4 @@
 .section {
-  padding: 4rem 2rem;
   color: #f0f0f0;
   display: flex;
   flex-direction: column;
@@ -12,4 +11,10 @@
   gap: 2rem;
   margin-top: 2rem;
   max-width: 850px; /* 2 * 250px + gap */
+}
+
+@media (max-width: 768px) {
+  .grid{
+    grid-template-columns: none;
+  }
 }
